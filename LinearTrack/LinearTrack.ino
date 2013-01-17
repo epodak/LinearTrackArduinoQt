@@ -13,8 +13,8 @@ static float VERSION = 0.1; // firmware version currently on Arduino
 static boolean ON = HIGH;
 static boolean OFF = !ON;
 
-int durL = 200; // duration left solenoid opens
-int durR = 200; // duration right solenoid opens
+int durL = 400; // duration left solenoid opens
+int durR = 400; // duration right solenoid opens
 
 boolean left = 0;     // variable for reading the pin status
 boolean right = 0;
